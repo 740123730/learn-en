@@ -40,7 +40,7 @@ import sphinx
 if sphinx.version_info >= (3, 0):
   # This requires 0.5 or later.
   extensions.append('recommonmark')
-  extensions.append('sphinx_markdown_tables')
+  extensions.append('sphinx-markdown-tables')
 else:
   source_parsers = {'.md': 'recommonmark.parser.CommonMarkParser'}
 # -- General configuration ------------------------------------------------
