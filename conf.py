@@ -39,8 +39,13 @@ extensions = ['sphinx.ext.intersphinx', 'sphinx.ext.todo']
 import sphinx
 if sphinx.version_info >= (3, 0):
   # This requires 0.5 or later.
-  extensions.append('recommonmark')
-  extensions.append('sphinx-markdown-tables')
+ extensions = ['recommonmark']
+ extensions = [
+     'sphinx.ext.autodoc',
+     'sphinx.ext.napoleon',
+     'sphinx.ext.mathjax',
+     'sphinx_markdown_tables',
+ ]
 else:
   source_parsers = {'.md': 'recommonmark.parser.CommonMarkParser'}
 # -- General configuration ------------------------------------------------
