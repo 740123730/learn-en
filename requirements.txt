@@ -9,5 +9,6 @@ ordered-set>=2.0.2
 scipy>=1.1.0
 opencv-contrib-python>=3.7
 Sphinx==4.5.0
+sphinx-markdown-tables==0.0.15
 # install RRtoolbox for debugging and development, I must migrate used methods to this project
 
