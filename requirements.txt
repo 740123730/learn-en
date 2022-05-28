@@ -8,6 +8,6 @@ future>=0.16.0
 ordered-set>=2.0.2
 scipy>=1.1.0
 opencv-contrib-python>=3.7
-sphinx-markdown-tables=0.0.15
+pip=22.0.4
 # install RRtoolbox for debugging and development, I must migrate used methods to this project
 
